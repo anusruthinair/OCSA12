@@ -32,16 +32,13 @@ public class LoginLocators {
 		return password;
 	}
 	
-	public WebElement getLoginButton()
-	{
-		return loginButton;
-	}
+	
 	
 	public void loginApp(String username,String password)
 	{
 		getUsername().sendKeys(username);
 		getPassword().sendKeys(password);
-		getLoginButton().click();
+		
 		
 	}
 
